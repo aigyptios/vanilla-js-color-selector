@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Color Selector</title>
+		<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" charset="utf-8">
+		<script type="text/javascript" src="js/colorselector.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="input-group">
+				<label for="r-range">Red</label>
+				<input class="rgb" type="range" id="r-range" min="0" max="255" value="255" />
+				<input class="rgb" type="number" id="r-number" min="0" max="255" value="255" />
+			</div>
+			
+			<div class="input-group">
+				<label for="g-range">Green</label>
+				<input class="rgb" type="range" id="g-range" min="0" max="255" value="255" />
+				<input class="rgb" type="number" id="g-number" min="0" max="255" value="255" />
+			</div>
+			
+			<div class="input-group">
+				<label for="b-range">Blue</label>
+				<input class="rgb" type="range" id="b-range" min="0" max="255" value="255" />
+				<input class="rgb" type="number" id="b-number" min="0" max="255" value="255" />
+			</div>
+			
+			<div class="input-group">
+				<label for="h-range">Hue</label>
+				<input class="hsl" type="range" id="h-range" min="0" max="360" value="360" />
+				<input class="hsl" type="number" id="h-number" min="0" max="360" value="360" />
+			</div>
+			
+			<div class="input-group">
+				<label for="s-range">Saturation</label>
+				<input class="hsl" type="range" id="s-range" min="0" max="100" value="100" />
+				<input class="hsl" type="number" id="s-number" min="0" max="100" value="100" />
+			</div>
+			
+			<div class="input-group">
+				<label for="l-range">Lightness</label>
+				<input class="hsl" type="range" id="l-range" min="0" max="100" value="100" />
+				<input class="hsl" type="number" id="l-number" min="0" max="100" value="100" />
+			</div>
+			
+			<div id="hexrep">#ffffff</div>
+			
+		</div>
+	</body>
+</html>

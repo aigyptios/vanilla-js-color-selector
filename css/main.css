@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+	font-size: .6em;
+}
+
+.container {
+	width: 375px;
+	margin: 10% auto;
+	box-shadow: 0 0 20px;
+	padding: 100px;
+	border-radius: 100px;
+	background-color: #fff;
+}
+
+.input-group {
+	height: 40px;
+}
+
+.input-group label {
+	display: block;
+	float: left;
+	width: 85px;
+	padding-top: 5px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.input-group input[type="range"] {
+	width: 200px;
+}
+
+.input-group input[type="number"] {
+	width: 40px;
+	position: relative;
+	top: -10px;
+	text-align: center;
+}
+
+#hexrep {
+	text-transform: lowercase;
+	margin-top: 30px;
+	text-align: center;
+	font-size:300%;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px dashed black;
+}
