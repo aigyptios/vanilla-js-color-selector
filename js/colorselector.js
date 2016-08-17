@@ -98,6 +98,7 @@ window.onload = function() {
 			
 			
 		},
+		// These two functions are borrowed from http://stackoverflow.com/questions/2353211/hsl-to-rgb-color-conversion
 		RGBtoHSL: function(r, g, b) {
 			
 			r /= 255, g /= 255, b /= 255;
